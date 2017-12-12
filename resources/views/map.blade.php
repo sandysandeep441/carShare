@@ -14,15 +14,13 @@
 					<div id="mode-selector" class="controls">
 						<input type="radio" name="type" id="changemode-walking" >
 						<label for="changemode-walking">Walking</label>
-
 						<input type="radio" name="type" id="changemode-transit">
 						<label for="changemode-transit">Transit</label>
-
 						<input type="radio" name="type" id="changemode-driving" checked="checked"> 
 						<label for="changemode-driving">Driving</label>
 					</div>
 
-					<div id="map"></div>
+					<div id="map" style="height: 500px"></div>
 					<script>
       // This example requires the Places library. Include the libraries=places
       // parameter when you first load the API. For example:
